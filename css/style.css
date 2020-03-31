@@ -42,6 +42,7 @@ input {
     z-index: -2;
 }
 
+
 .auth-method__link {
     margin-right: 25px;
     font-size: 18px;
@@ -50,6 +51,15 @@ input {
     text-decoration: none;
     position: relative;
     opacity: .5s;
+}
+
+
+.auth-method__link:nth-child(2) {
+    opacity: .5;
+}
+
+.auth-method__link:hover {
+    opacity: 1;
 }
 
 .auth-method__link::after {
